@@ -10,6 +10,9 @@ const Nav = styled.div`
 	top: 0;
 	z-index: 1;
 	padding: 1em;
+	@media (min-width: 768px) {
+		display: none;
+	}
 `;
 
 const MenuIcon = styled.img`
