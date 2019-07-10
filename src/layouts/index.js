@@ -2,7 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link';
 import base from './base.css';
 import Container from '../components/container';
-import Navigation from '../components/navigation/Navigation';
+import MobileNav from '../components/navigation/Navigation';
+import Navigation from '../components/navigation/MainNav';
 
 class Template extends React.Component {
 	render() {
@@ -17,6 +18,7 @@ class Template extends React.Component {
 		return (
 			<Container>
 				<Navigation />
+				<MobileNav />
 				{children()}
 			</Container>
 		);
